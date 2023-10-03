@@ -1,17 +1,67 @@
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        //Задача 1
+        var dog = 8.0;
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        //Задача 2
+        dog = dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        //Задача 3
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
+
+        //Задача 4
+        var friend = 19;
+        System.out.println(friend);
+        friend = friend + 2;
+        System.out.println(friend);
+        friend = friend / 7;
+        System.out.println(friend);
+
+        //Задача 5
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
+
+        //Задачи 6-7
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        var bothBoxersWeight = firstBoxer + secondBoxer;
+        System.out.println("Общий вес боксеров " + bothBoxersWeight + " кг");
+        var weightDiff1 = secondBoxer - firstBoxer;
+        System.out.println("Разница в весе боксеров " + weightDiff1 + " кг");
+        var weightDiff2 = secondBoxer % firstBoxer;
+        System.out.println("Разница в весе боксеров " + weightDiff2 + " кг");
+
+        //Задача 8
+        //1.
+        var collectiveHours = 640;
+        var eachEmployeeHours = 8;
+        var employeesNumber = collectiveHours / eachEmployeeHours;
+        System.out.println("Всего работников в компании — " + employeesNumber + " человек(а)");
+
+        //2.
+        employeesNumber = employeesNumber + 94;
+        collectiveHours = employeesNumber * eachEmployeeHours;
+        System.out.println("Если в компании работает " + employeesNumber + " человек(а), то всего " + collectiveHours + " часа(ов) работы может быть поделено между сотрудниками");
     }
 }
